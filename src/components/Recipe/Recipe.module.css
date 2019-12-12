@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+* {
+    transition: all .4s ease;
+}
+
+.Item {
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px #000;
+}
+
+.Item h2 {
+    font-family: 'Mansalva', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+}
+
+.Item h3 {
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    color: #4169E1;
+}
+
+.Item img {
+    border-radius: 30%;
+    border: 5px solid #F0E68C;
+    width: 400px;
+    align-self: center;
+}
+
+.Item ol {
+    width: 60%;
+    margin: 0 auto 20px auto;
+    font-size: 20px;
+}
